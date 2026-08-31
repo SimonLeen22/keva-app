@@ -1,6 +1,6 @@
 # Keva — AI agent for Android
 
-[Website](https://keva.chat/) · [Download for Android](https://keva.chat/download/) · [中文说明](README.zh-CN.md) · [FAQ](docs/FAQ.md) · [Changelog](CHANGELOG.md)
+[Website](https://keva.chat/) · [Download for Android](https://keva.chat/download/) · [中文说明](README.zh-CN.md) · [Why I built Keva](docs/why-i-built-keva.md) · [FAQ](docs/FAQ.md) · [Changelog](CHANGELOG.md)
 
 > **Run a real AI agent on your Android phone — no PC required.**
 
@@ -64,7 +64,9 @@ Keva is a **closed-source product**. This public repository is for product updat
 ├── SECURITY.md              # Private vulnerability disclosure policy
 ├── docs/
 │   ├── FAQ.md               # English product and release questions
-│   └── FAQ.zh-CN.md         # 中文常见问题
+│   ├── FAQ.zh-CN.md         # 中文常见问题
+│   ├── why-i-built-keva.md  # Founder's note before the first release
+│   └── why-i-built-keva.zh-CN.md  # 开发手记（中文）
 └── .github/ISSUE_TEMPLATE/  # Bug-report and feature-request forms
 ```
 
