@@ -13,9 +13,11 @@
 - English README: https://github.com/SimonLeen22/keva-app/blob/main/README.md
 - Chinese README: https://github.com/SimonLeen22/keva-app/blob/main/README.zh-CN.md
 - FAQ: https://github.com/SimonLeen22/keva-app/blob/main/docs/FAQ.md
+- Founder's note: https://keva.chat/story/ (中文: https://keva.chat/story/zh/)
 
 ## Product facts
 
+- Slogan: "Say the word. It's done." (中文: 只要你说，就可行。)
 - Category: on-device AI agent for Android; local-first; bring-your-own-provider.
 - Runtimes: Claude Code and OpenAI Codex.
 - Codex access: ChatGPT subscription sign-in or OpenAI API key.

@@ -1,5 +1,7 @@
 # Keva（可行）— Android 手机上的 AI 智能体
 
+**只要你说，就可行。**
+
 [官网](https://keva.chat/) · [安卓版下载](https://keva.chat/download/) · [English](README.md) · [开发手记](docs/why-i-built-keva.zh-CN.md) · [常见问题](docs/FAQ.zh-CN.md) · [更新日志](CHANGELOG.md)
 
 > **把真正能干活的 AI 智能体装进 Android 手机，不需要电脑。**

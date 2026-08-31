@@ -1,5 +1,7 @@
 # Keva — AI agent for Android
 
+**Say the word. It's done.**
+
 [Website](https://keva.chat/) · [Download for Android](https://keva.chat/download/) · [中文说明](README.zh-CN.md) · [Why I built Keva](docs/why-i-built-keva.md) · [FAQ](docs/FAQ.md) · [Changelog](CHANGELOG.md)
 
 > **Run a real AI agent on your Android phone — no PC required.**
