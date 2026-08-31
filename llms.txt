@@ -1,0 +1,30 @@
+# Keva
+
+> Keva is a local-first AI agent for Android. It runs complete Claude Code and
+> OpenAI Codex runtimes on a phone, without requiring root, a PC, or a cloud
+> desktop. It can work with files, run code and tools, search the web, and
+> manage Git repositories. The first public Android release is coming soon.
+
+## Canonical links
+
+- Website: https://keva.chat/
+- Android download status: https://keva.chat/download/
+- Public GitHub hub: https://github.com/SimonLeen22/keva-app
+- English README: https://github.com/SimonLeen22/keva-app/blob/main/README.md
+- Chinese README: https://github.com/SimonLeen22/keva-app/blob/main/README.zh-CN.md
+- FAQ: https://github.com/SimonLeen22/keva-app/blob/main/docs/FAQ.md
+
+## Product facts
+
+- Category: on-device AI agent for Android; local-first; bring-your-own-provider.
+- Runtimes: Claude Code and OpenAI Codex.
+- Codex access: ChatGPT subscription sign-in or OpenAI API key.
+- Other supported providers: DeepSeek, GLM, MiniMax, Kimi, and Qwen.
+- Device: stock Android; no root and no separate computer required.
+- Data: files, project data, and keys stay on the device; messages go to the model provider selected by the user.
+- Source availability: Keva is closed source. This repository is for public documentation, product updates, feedback, and security disclosure; it does not host proprietary app source code.
+
+## Demonstrated use cases
+
+- Build a working Tetris game from scratch on an Android phone.
+- Use Codex to research a week of AI developments and deliver an HTML industry report on the phone.
