@@ -4,9 +4,9 @@
 
 不开源。Keva 是闭源产品；本仓库是产品动态、公开文档和用户反馈的公开入口。
 
-## 什么时候可以下载？
+## 在哪里下载？
 
-首个公开 Android 版本正在准备中。官方 APK 和 SHA-256 校验值会在 [keva.chat](https://keva.chat/) 公布。
+首个公开 Android 版本（2026.38.5）已在 [keva.chat/download](https://keva.chat/download/) 开放下载，并附 SHA-256 校验值。请只从 Keva 官方地址下载。
 
 ## 需要 root 或电脑吗？
 

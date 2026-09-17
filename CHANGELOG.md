@@ -2,9 +2,19 @@
 
 This file records user-visible changes in public Keva releases.
 
-## Unreleased
+## 2026.38.5 — 2026-09-17 · First public release
 
-- Public Android release in preparation.
-- Added complete Claude Code and OpenAI Codex runtimes.
-- Codex supports ChatGPT subscription sign-in and OpenAI API keys.
-- Switching between Claude and Codex keeps the current conversation context.
+Download: https://keva.chat/download/ (APK with SHA-256 checksum).
+
+- **Automatic update checks.** Keva now looks for new versions on its own. Optional updates show up in Settings and on the chat page; required updates open a full-screen download guide. Installing an update keeps your data.
+- **"Version & updates" in Settings.** Current version, last check time, one-tap check, and a dot on the Settings tab when an update is waiting.
+- **Task checklists in Claude mode.** Multi-step jobs start with a checklist and tick items off as they go.
+- **Task checklists in Codex mode.** The same checklist card now appears when Codex plans a task.
+- **Accurate sub-task counter.** "Running N of M" counts down correctly for parallel sub-tasks, and each turn keeps its own checklist instead of overwriting the previous one.
+- **Cleaner worklog.** Codex sub-task operations (wait, message, close) read as plain language instead of raw identifiers.
+- **Better behind VPNs and proxies.** The app's own requests (update checks, model discovery) use the same proxy settings as the built-in CLIs.
+- **Faster sending.** Messages no longer wait on a location fix; connections are reused, with fewer false "network error" reports.
+- **Redesigned new-chat page.** Clearer welcome copy and four scene cards: documents, files, search, code.
+- **Copy polish and runtime bumps.** Hundreds of strings revised in English and Chinese; DeepSeek defaults to deepseek-v4.1-flash; bundled Claude Code 2.1.259 and Codex 0.153.4.
+
+Earlier, unreleased builds added the complete Claude Code and OpenAI Codex runtimes, Codex sign-in with a ChatGPT subscription or OpenAI API key, and conversation context that survives switching between Claude and Codex.

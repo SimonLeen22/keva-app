@@ -8,7 +8,7 @@
 
 Keva is a local-first AI agent for Android. It brings complete **Claude Code** and **OpenAI Codex** runtimes to your phone, so you can work with files, run code and tools, search the web, and manage Git repositories without a computer or a cloud desktop.
 
-**The first public Android release is coming soon.** Follow this repository for release notes, public documentation, and launch updates.
+**The first public Android release, 2026.38.5, is available now** at [keva.chat/download](https://keva.chat/download/). Follow this repository for release notes and public documentation.
 
 ## Why Keva
 
@@ -43,7 +43,7 @@ Switching between Claude and Codex keeps the current conversation context, so yo
 
 ## Public release
 
-The Android APK is not available yet. When it opens, the official APK and SHA-256 checksum will be published at [keva.chat/download](https://keva.chat/download/). Only download Keva from an official Keva address and verify the checksum.
+Download the official APK and its SHA-256 checksum from [keva.chat/download](https://keva.chat/download/). Only download Keva from an official Keva address and verify the checksum before installing.
 
 ## Help, feedback, and security
 

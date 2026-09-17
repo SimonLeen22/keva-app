@@ -4,9 +4,9 @@
 
 No. Keva is a closed-source product. This repository is a public home for product updates, documentation, and feedback.
 
-## When can I download it?
+## Where do I download it?
 
-The first public Android release is in preparation. The official APK and its SHA-256 checksum will be announced on [keva.chat](https://keva.chat/).
+The first public Android release (2026.38.5) is available at [keva.chat/download](https://keva.chat/download/), with its SHA-256 checksum. Only download from an official Keva address.
 
 ## Does it need root or a computer?
 
