@@ -8,6 +8,10 @@ No. Keva is a closed-source product. This repository is a public home for produc
 
 The first public Android release (2026.38.5) is available at [keva.chat/download](https://keva.chat/download/), with its SHA-256 checksum. Only download from an official Keva address.
 
+## Google Play Protect says "Unsafe app blocked" — is that a problem?
+
+No. It is the expected warning for any app that runs a full Linux runtime on the phone (Termux shows the same one). Such apps must be built against the Android 9 API level, so newer Android versions say the app "was built for an older version of Android". Tap "Install anyway" (on some phones: "More details" → "Install anyway"). Always download from keva.chat and verify the SHA-256 published on the download page.
+
 ## Does it need root or a computer?
 
 No. Keva runs as a normal Android app on stock devices; it does not need root or a separate computer.
