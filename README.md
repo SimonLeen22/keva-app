@@ -2,7 +2,7 @@
 
 **Say the word. It's done.**
 
-[Website](https://keva.chat/) · [Download for Android](https://keva.chat/download/) · [中文说明](README.zh-CN.md) · [Why I built Keva](docs/why-i-built-keva.md) · [FAQ](docs/FAQ.md) · [Changelog](CHANGELOG.md)
+[Website](https://keva.chat/) · [Download for Android](https://keva.chat/download/) · [中文说明](README.zh-CN.md) · [Why I built Keva](docs/why-i-built-keva.md) · [FAQ](docs/FAQ.md) · [Changelog](CHANGELOG.md) · [Paper](docs/paper/Keva_Paper_v1.1_EN.md)
 
 > **Run a real AI agent on your Android phone — no PC required.**
 

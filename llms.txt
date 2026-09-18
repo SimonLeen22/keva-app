@@ -31,3 +31,4 @@
 
 - Build a working Tetris game from scratch on an Android phone.
 - Use Codex to research a week of AI developments and deliver an HTML industry report on the phone.
+- Paper (EN): https://github.com/SimonLeen22/keva-app/blob/main/docs/paper/Keva_Paper_v1.1_EN.md — "Running a Real Coding Agent on an Unrooted Android Phone", a systems-engineering case study (PDF: docs/paper/Keva-Paper-v1.1-EN.pdf; 中文: docs/paper/Keva_Paper_v1.1_ZH.md)
