@@ -2,6 +2,13 @@
 
 This file records user-visible changes in public Keva releases.
 
+## 2026.38.8 — 2026-09-19
+
+- **Sign-in behind VPN proxies.** Codex sign-in no longer needs an app restart when the proxy came up after the app did; the app re-checks the proxy on every explicit sign-in tap.
+- **Strict battery restrictions.** On phones that restrict the app's background activity, Keva no longer crashes about half a minute after launch; Settings explains the restriction instead.
+- **Settings fixes.** The status bar stays readable in the light theme; the account row shows the real device count right after launch.
+- **Cleaner update screens.** One headline, one line of details.
+
 ## 2026.38.5 — 2026-09-17 · First public release
 
 Download: https://keva.chat/download/ (APK with SHA-256 checksum).
