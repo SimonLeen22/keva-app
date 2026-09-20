@@ -12,6 +12,10 @@ The first public Android release (2026.38.5) is available at [keva.chat/download
 
 No. It is the expected warning for any app that runs a full Linux runtime on the phone (Termux shows the same one). Such apps must be built against the Android 9 API level, so newer Android versions say the app "was built for an older version of Android". Tap "Install anyway" (on some phones: "More details" → "Install anyway"). Always download from keva.chat and verify the SHA-256 published on the download page.
 
+## Swiping Keva away from Recents did not fix a problem — why?
+
+Keva keeps a small foreground service running so long tasks survive in the background, and on many phones swiping the app out of the recent-apps list only closes the screen — the process stays alive. To really restart the app, use **Settings → Apps → Keva → Force stop**, or "Active apps → Stop" in the notification shade on Android 13+, then open Keva again.
+
 ## Does it need root or a computer?
 
 No. Keva runs as a normal Android app on stock devices; it does not need root or a separate computer.
