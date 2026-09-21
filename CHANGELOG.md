@@ -2,6 +2,17 @@
 
 This file records user-visible changes in public Keva releases.
 
+## 2026.39.2 — 2026-09-21
+
+- **No more false 15-second timeouts.** A turn whose first reply took longer than 15 seconds — image generation, or the first message after the engine had been idle — could be cut off as "no reply after 180 s". That guard is gone; the timeout message now reports how long you actually waited.
+- **Codex reconnects no longer fail the task.** When the Codex stream reconnects mid-task ("Reconnecting… 2/5"), the turn keeps running and shows "Retrying" instead of ending with an error.
+- **Pictures and videos, right in the chat.** Images and videos the assistant produces now appear as a photo grid under its reply (up to nine tiles, "+N" beyond that). Tap to open a gallery you can swipe through and pinch-zoom; videos play in the app, with a fallback to your system player.
+- **Up to six attachments, picked at once.** The gallery and file pickers accept multiple selections; the limit is six per message.
+- **Large photos no longer freeze the send button.** Camera originals are resized by dimension in the background as soon as you pick them, keeping detail instead of squeezing them into a tiny file. HEIC/AVIF images are sent as files for now.
+- **Third-party models keep working when your Claude subscription lapses.** An expired Claude sign-in no longer blocks Minimax, DeepSeek, Kimi and other API providers.
+- **Staying signed in.** A sign-in that was interrupted mid-refresh (an update, the system killing the app) no longer signs you out on every device. This part is a server change and applies to all versions.
+- **Image conversations resume reliably.** Long Codex conversations that include images no longer time out when resumed.
+
 ## 2026.38.9 — 2026-09-20
 
 - **"Engine is already running" fix.** After cancelling a Codex sign-in or switching models, every Claude-side model (Kimi, DeepSeek, …) could fail with `E-PROC-?` and "CODEX engine is already running", and swiping the app away did not clear it. Sign-in and account checks now release the engine when they finish, the app reconciles a leftover engine on launch, and a refused start shows `E-ENGINE-BUSY` with a plain explanation instead of a crash code.
