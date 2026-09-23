@@ -2,6 +2,13 @@
 
 This file records user-visible changes in public Keva releases.
 
+## 2026.39.3 — 2026-09-23
+
+- **Claude Opus 5.5.** The Claude API's Opus tier is now Opus 5.5, with its 1M-token context window. Claude subscription members get it through the bundled Claude Code.
+- **GPT-6 in Codex.** The OpenAI picker offers GPT-6 Astra, GPT-6 Sol, GPT-5.6 Terra and GPT-6 Luna. If you had GPT-5.6 Sol or Luna selected, Keva moves you to GPT-6 Sol or Luna automatically; the reasoning level for the new model starts at its default.
+- **Xiaomi MiMo V2.6.** MiMo now uses V2.6 Pro and V2.6 Flash, both with a 1M-token context window.
+- **Runtime bumps.** Bundled Claude Code 2.1.280 and Codex 0.156.0. The first launch after updating unpacks the new engines once.
+
 ## 2026.39.2 — 2026-09-21
 
 - **No more false 15-second timeouts.** A turn whose first reply took longer than 15 seconds — image generation, or the first message after the engine had been idle — could be cut off as "no reply after 180 s". That guard is gone; the timeout message now reports how long you actually waited.
