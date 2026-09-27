@@ -8,7 +8,7 @@
 
 Keva is a local-first AI agent for Android. It brings complete **Claude Code** and **OpenAI Codex** runtimes to your phone, so you can work with files, run code and tools, search the web, and manage Git repositories without a computer or a cloud desktop.
 
-**The first public Android release, 2026.38.5, is available now** at [keva.chat/download](https://keva.chat/download/). Follow this repository for release notes and public documentation.
+**The current Android release is 2026.39.4** — download it at [keva.chat/download](https://keva.chat/download/). It fixes a crash when sending while the engine is still preparing on some devices (such as HarmonyOS compatibility layers), and if Keva ever closes unexpectedly, the next launch shows what happened. See the [Changelog](CHANGELOG.md) for every release, and follow this repository for release notes and public documentation.
 
 ## Why Keva
 
@@ -37,7 +37,7 @@ Watch the demos on the [Keva website](https://keva.chat/#cases).
 
 - **Claude Code:** use your configured provider or Claude plan.
 - **OpenAI Codex:** sign in with a ChatGPT subscription or use an OpenAI API key.
-- **Additional providers:** DeepSeek, GLM, MiniMax, Kimi, and Qwen are supported through Keva's provider setup.
+- **Additional providers:** DeepSeek, GLM, MiniMax, Kimi, Qwen, and Xiaomi MiMo are supported through Keva's provider setup.
 
 Switching between Claude and Codex keeps the current conversation context, so you do not need to start the work over.
 
@@ -49,6 +49,7 @@ Download the official APK and its SHA-256 checksum from [keva.chat/download](htt
 
 - Read the [FAQ](docs/FAQ.md).
 - Open a reproducible bug report or feature request using the issue templates.
+- If Keva closed unexpectedly, the next launch offers a crash summary: tap **Copy details** (or open **Settings › Runtime diagnostics**, which keeps the last report) and paste it into your bug report. It is built from error types, app steps, and device info, and is designed to leave out your conversations.
 - Read [CONTRIBUTING.md](CONTRIBUTING.md) before posting public feedback.
 - For vulnerabilities, follow [SECURITY.md](SECURITY.md). Do not open a public security issue.
 

@@ -8,7 +8,7 @@
 
 Keva 是一款本地优先的 Android AI 智能体。它把完整的 **Claude Code** 和 **OpenAI Codex** 运行时带到手机上：读写文件、运行代码和工具、联网检索、管理 Git 仓库，都不需要 PC 或云端桌面。
 
-**首个公开 Android 版本 2026.38.5 已开放下载**：[keva.chat/download](https://keva.chat/download/)。关注本仓库可获取版本动态和公开文档。
+**当前 Android 版本为 2026.39.4**，可从 [keva.chat/download](https://keva.chat/download/) 下载。本版修复了部分设备（如鸿蒙卓易通等兼容环境）在引擎「准备中」时发送消息导致的闪退；如果 Keva 意外退出，下次打开会显示原因。历次版本见[更新日志](CHANGELOG.md)，关注本仓库可获取版本动态和公开文档。
 
 ## Keva 有什么不同
 
@@ -37,7 +37,7 @@ Keva 面向的是有明确结果的任务，而不只是一次对话。目前公
 
 - **Claude Code**：使用你配置的服务商或 Claude 方案。
 - **OpenAI Codex**：使用 ChatGPT 订阅登录，或填写 OpenAI API Key。
-- **其他服务商**：Keva 的服务商配置支持 DeepSeek、GLM、MiniMax、Kimi 和 Qwen。
+- **其他服务商**：Keva 的服务商配置支持 DeepSeek、GLM、MiniMax、Kimi、Qwen 和小米 MiMo。
 
 Claude 与 Codex 之间切换时，当前对话上下文会被保留，不必从头交代工作。
 
@@ -49,6 +49,7 @@ Claude 与 Codex 之间切换时，当前对话上下文会被保留，不必从
 
 - 查看 [常见问题](docs/FAQ.zh-CN.md)。
 - 使用 Issue 模板提交可复现的问题或功能建议。
+- 如果 Keva 意外退出，下次打开会弹出崩溃摘要：点「**复制详情**」（或在「**设置 › 运行诊断**」里查看保留的上次报告），粘贴到问题反馈里即可。报告由错误类型、App 操作步骤和设备信息组成，设计上不包含你的对话内容。
 - 提交公开反馈前请阅读 [CONTRIBUTING.md](CONTRIBUTING.md)。
 - 安全漏洞请遵循 [SECURITY.md](SECURITY.md)，不要公开提交 Issue。
 
