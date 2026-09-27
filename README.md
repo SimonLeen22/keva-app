@@ -37,7 +37,7 @@ Watch the demos on the [Keva website](https://keva.chat/#cases).
 
 - **Claude Code:** use your configured provider or Claude plan.
 - **OpenAI Codex:** sign in with a ChatGPT subscription or use an OpenAI API key.
-- **Additional providers:** DeepSeek, GLM, MiniMax, Kimi, Qwen, and Xiaomi MiMo are supported through Keva's provider setup.
+- **Additional providers:** DeepSeek, GLM, Kimi, LongCat, MiniMax, Qwen, and Xiaomi MiMo are supported through Keva's provider setup.
 
 Switching between Claude and Codex keeps the current conversation context, so you do not need to start the work over.
 

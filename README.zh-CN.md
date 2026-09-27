@@ -37,7 +37,7 @@ Keva 面向的是有明确结果的任务，而不只是一次对话。目前公
 
 - **Claude Code**：使用你配置的服务商或 Claude 方案。
 - **OpenAI Codex**：使用 ChatGPT 订阅登录，或填写 OpenAI API Key。
-- **其他服务商**：Keva 的服务商配置支持 DeepSeek、GLM、MiniMax、Kimi、Qwen 和小米 MiMo。
+- **其他服务商**：Keva 的服务商配置支持 DeepSeek、GLM、Kimi、LongCat、MiniMax、Qwen 和小米 MiMo。
 
 Claude 与 Codex 之间切换时，当前对话上下文会被保留，不必从头交代工作。
 
