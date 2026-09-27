@@ -6,7 +6,7 @@ No. Keva is a closed-source product. This repository is a public home for produc
 
 ## Where do I download it?
 
-The first public Android release (2026.38.5) is available at [keva.chat/download](https://keva.chat/download/), with its SHA-256 checksum. Only download from an official Keva address.
+The current Android release is always at [keva.chat/download](https://keva.chat/download/), with its SHA-256 checksum; see the [Changelog](../CHANGELOG.md) for what changed in each version. Only download from an official Keva address.
 
 ## Google Play Protect says "Unsafe app blocked" — is that a problem?
 

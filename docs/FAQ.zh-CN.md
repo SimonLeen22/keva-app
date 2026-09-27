@@ -6,7 +6,7 @@
 
 ## 在哪里下载？
 
-首个公开 Android 版本（2026.38.5）已在 [keva.chat/download](https://keva.chat/download/) 开放下载，并附 SHA-256 校验值。请只从 Keva 官方地址下载。
+最新的 Android 版本始终在 [keva.chat/download](https://keva.chat/download/) 提供下载，并附 SHA-256 校验值；每个版本的变化见[更新日志](../CHANGELOG.md)。请只从 Keva 官方地址下载。
 
 ## 安装时 Google Play 保护机制提示「已屏蔽不安全的应用」，有问题吗？
 
