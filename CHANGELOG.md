@@ -2,6 +2,12 @@
 
 This file records user-visible changes in public Keva releases.
 
+## 2026.39.4 — 2026-09-27
+
+- **No more crash when sending while "Preparing…".** On some devices — notably HarmonyOS phones running Android apps through a compatibility layer — sending a message while the engine was still starting could close the whole app. Keva now waits for that start to finish instead of restarting the engine, and a failing background engine step shows an error in the chat rather than taking the app down.
+- **See why Keva closed.** If the app ever closes unexpectedly, the next launch shows a short summary with a "Copy details" button, and Settings › Diagnostics keeps the last report so you can send it to us. The report is built from error types, app steps and device info, and is designed to leave out your conversations.
+- **The update page always shows the newest version.** Opening it now checks for the latest release first, instead of showing a result cached from earlier.
+
 ## 2026.39.3 — 2026-09-23
 
 - **Claude Opus 5.5.** The Claude API's Opus tier is now Opus 5.5, with its 1M-token context window. Claude subscription members get it through the bundled Claude Code.
