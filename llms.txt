@@ -3,7 +3,7 @@
 > Keva is a local-first AI agent for Android. It runs complete Claude Code and
 > OpenAI Codex runtimes on a phone, without requiring root, a PC, or a cloud
 > desktop. It can work with files, run code and tools, search the web, and
-> manage Git repositories. The current Android release (2026.39.4) is
+> manage Git repositories. The current Android release (2026.40.3) is
 > available at https://keva.chat/download/.
 
 ## Canonical links
