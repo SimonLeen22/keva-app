@@ -2,10 +2,12 @@
 
 This file records user-visible changes in public Keva releases.
 
-## 2026.40.1 — 2026-09-29
+## 2026.40.3 — 2026-09-29
 
 - **Claude Sonnet 5.5.** The Claude API's Sonnet tier is now Sonnet 5.5 (`claude-sonnet-5-5`, 1M-token context). Claude subscription members get it through the bundled Claude Code, whose `sonnet` alias now resolves to Sonnet 5.5.
 - **Runtime bumps.** Bundled Claude Code 2.1.284 and Codex 0.158.0. The first launch after updating unpacks the new engines once.
+- **Claude sign-in works after using another provider.** If you had used a non-Claude model (MiniMax, DeepSeek, …), signing in to your Claude subscription could finish successfully but still be reported as "login info doesn't match", and the usage card showed "can't read usage". Both now work.
+- **Signing out of Claude no longer blocks Codex.** Previously, after signing out of Claude while a session was open, Codex sign-in and chats kept failing until you restarted the app.
 - **Anonymous install-age range on the update check.** The version check now carries a coarse range of days since install (0, 1–2, 3–6 or 7+) so we can count active installs in aggregate. It still carries no ID and no content; the privacy page is updated to match.
 
 ## 2026.39.4 — 2026-09-27
