@@ -2,6 +2,13 @@
 
 This file records user-visible changes in public Keva releases.
 
+## 2026.40.4 — 2026-09-30
+
+- **GPT-6.1 Sol in Codex.** The OpenAI picker's Sol entry is now GPT-6.1 Sol, with reasoning levels low to max (no none/minimal). If you had GPT-6 Sol selected, Keva moves you to GPT-6.1 Sol automatically. Each OpenAI model now only offers, and sends, the reasoning levels it actually supports.
+- **Runtime bump.** Bundled Codex 0.159.2. The first launch after updating unpacks the new engine once.
+- **A Claude conversation with a lost session recovers.** If a conversation's saved Claude session could no longer be found, every message in it failed at start. Keva now detects this, drops the stale session reference and continues the conversation from its transcript, without an error.
+- **Clearer start failures.** When the engine cannot start, Keva shows a specific message with a code instead of a generic "process crashed" error, and only retries when a retry can actually help (for example while the previous session is still shutting down).
+
 ## 2026.40.3 — 2026-09-29
 
 - **Claude Sonnet 5.5.** The Claude API's Sonnet tier is now Sonnet 5.5 (`claude-sonnet-5-5`, 1M-token context). Claude subscription members get it through the bundled Claude Code, whose `sonnet` alias now resolves to Sonnet 5.5.

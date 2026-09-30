@@ -8,7 +8,7 @@
 
 Keva is a local-first AI agent for Android. It brings complete **Claude Code** and **OpenAI Codex** runtimes to your phone, so you can work with files, run code and tools, search the web, and manage Git repositories without a computer or a cloud desktop.
 
-**The current Android release is 2026.40.3** — download it at [keva.chat/download](https://keva.chat/download/). It adds Claude Sonnet 5.5 and updates the bundled Claude Code (2.1.284) and Codex (0.158.0), and fixes Claude sign-in and the usage card after you have used another provider, and Codex being blocked after signing out of Claude. See the [Changelog](CHANGELOG.md) for every release, and follow this repository for release notes and public documentation.
+**The current Android release is 2026.40.4** — download it at [keva.chat/download](https://keva.chat/download/). It updates the bundled Codex to 0.159.2 with GPT-6.1 Sol, recovers Claude conversations whose saved session was lost, and shows a specific message when the engine cannot start. See the [Changelog](CHANGELOG.md) for every release, and follow this repository for release notes and public documentation.
 
 ## Why Keva
 
