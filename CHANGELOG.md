@@ -2,6 +2,14 @@
 
 This file records user-visible changes in public Keva releases.
 
+## 2026.41.5 — 2026-10-06
+
+- **Make videos on your phone.** The bundled `ffmpeg` and `ffprobe` now work, including CJK fonts for subtitles and on-screen text, so the assistant can cut, mix, subtitle and transcode audio and video right on the device.
+- **Hardware video encoding.** The assistant can now encode H.264 with your phone's own hardware video encoder through the new `keva-media` tool. In our tests, encoding a 32-second clip was about 6× faster than software encoding, and the whole job went from 336 s to 131 s. Encodes queue up instead of failing when one is already running, and an encode that is interrupted never leaves a half-written file behind.
+- **High-risk commands are approved in place.** When you approve a high-risk command (for example one that deletes files), that same command now runs right away instead of being declined and retried. Once you decide, the approval card folds into a faint one-line record; tap it to see the full command and when you decided.
+- **Smoother runtime.** `pip` works out of the box, long renders can run for up to an hour, and the runtime repairs an interrupted or incomplete install on the next launch.
+- **Select reply text in one go.** You can now select text continuously across paragraphs, lists, tables and code blocks in the assistant's reply.
+
 ## 2026.40.4 — 2026-09-30
 
 - **GPT-6.1 Sol in Codex.** The OpenAI picker's Sol entry is now GPT-6.1 Sol, with reasoning levels low to max (no none/minimal). If you had GPT-6 Sol selected, Keva moves you to GPT-6.1 Sol automatically. Each OpenAI model now only offers, and sends, the reasoning levels it actually supports.

@@ -8,7 +8,7 @@
 
 Keva 是一款本地优先的 Android AI 智能体。它把完整的 **Claude Code** 和 **OpenAI Codex** 运行时带到手机上：读写文件、运行代码和工具、联网检索、管理 Git 仓库，都不需要 PC 或云端桌面。
 
-**当前 Android 版本为 2026.40.4**，可从 [keva.chat/download](https://keva.chat/download/) 下载。本版升级内置 Codex 到 0.159.2 并支持 GPT-6.1 Sol，Claude 对话的会话记录丢失后可自动恢复，引擎无法启动时会给出具体原因。历次版本见[更新日志](CHANGELOG.md)，关注本仓库可获取版本动态和公开文档。
+**当前 Android 版本为 2026.41.5**，可从 [keva.chat/download](https://keva.chat/download/) 下载。本版让内置 ffmpeg 可以直接在手机上剪辑音视频，新增 `keva-media` 工具调用硬件 H.264 编码，高危命令改为原地确认。历次版本见[更新日志](CHANGELOG.md)，关注本仓库可获取版本动态和公开文档。
 
 ## Keva 有什么不同
 
