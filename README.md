@@ -8,7 +8,7 @@
 
 Keva is a local-first AI agent for Android. It brings complete **Claude Code** and **OpenAI Codex** runtimes to your phone, so you can work with files, run code and tools, search the web, and manage Git repositories without a computer or a cloud desktop.
 
-**The current Android release is 2026.41.5** — download it at [keva.chat/download](https://keva.chat/download/). It makes the bundled ffmpeg work for editing audio and video on the phone, adds hardware H.264 encoding through the new `keva-media` tool, and approves high-risk commands in place. See the [Changelog](CHANGELOG.md) for every release, and follow this repository for release notes and public documentation.
+**The current Android release is 2026.41.6** — download it at [keva.chat/download](https://keva.chat/download/). It brings up to 20 attachments with a preview before you send, hardware frame extraction from video, media playback in the Files tab, a new working indicator, and Claude Haiku 5.5. See the [Changelog](CHANGELOG.md) for every release, and follow this repository for release notes and public documentation.
 
 ## Why Keva
 

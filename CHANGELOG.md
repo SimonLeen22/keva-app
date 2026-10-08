@@ -2,6 +2,16 @@
 
 This file records user-visible changes in public Keva releases.
 
+## 2026.41.6 — 2026-10-08
+
+- **20 attachments, and a preview before you send.** Photos and videos have separate pickers, and up to 20 attachments fit in one row of thumbnails. Before sending you can open a preview to play a video, see its resolution, or remove a single item. While the picker is still copying files, the tray shows an importing state and sending waits until it finishes.
+- **Bigger media, less copying.** Videos and audio play inline with no size cap. Files the picker already copied are moved into your project instead of copied again, and Keva checks storage space before sending, with a shortcut to clean up storage.
+- **Frames from video, on the phone's hardware.** The assistant can extract frames from a video (every keyframe, every N seconds, or at given timestamps) with your phone's hardware video decoder through `keva-media`.
+- **Media in the Files tab.** Images and videos open in a swipeable gallery with the rest of the folder's media, a lone video plays in place, and audio files get an in-page player.
+- **A new working indicator.** While the assistant works, footprints walk forward step by step; when it finishes, a cinnabar check marks the result. In the video player, the picture is no longer covered by a pause button while playing: tap the video to pause, and the play button comes back when it is paused or ends.
+- **Claude Haiku 5.5.** The Claude API's Haiku tier is now Haiku 5.5 (`claude-haiku-5-5`). Claude subscription members get it through the bundled Claude Code, whose `haiku` alias now resolves to Haiku 5.5.
+- **Runtime bump.** Bundled Claude Code 2.1.293. The first launch after updating unpacks the new engine once.
+
 ## 2026.41.5 — 2026-10-06
 
 - **Make videos on your phone.** The bundled `ffmpeg` and `ffprobe` now work, including CJK fonts for subtitles and on-screen text, so the assistant can cut, mix, subtitle and transcode audio and video right on the device.
