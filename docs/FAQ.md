@@ -26,4 +26,4 @@ Keva includes Claude Code and OpenAI Codex. Codex can use a ChatGPT subscription
 
 ## Where does my data go?
 
-Your files, project data, and keys stay on your device. Messages are sent to the model provider you choose. Keva does not run analytics; it uses a minimal anonymous version check to deliver required updates.
+Your files, project data, and keys stay on your device. Messages are sent to the model provider you choose. The app does not run analytics; it uses a minimal anonymous version check to deliver required updates. The website counts anonymous page views (see the privacy policy at keva.chat/privacy).
