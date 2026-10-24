@@ -8,7 +8,7 @@
 
 Keva（可行）给 AI 一台完整的电脑，就装在你的安卓手机里。它把完整的 **Claude Code** 和 **OpenAI Codex** 运行时带到手机上：读写文件、运行代码和工具、联网检索、管理 Git 仓库，都不需要 PC 或云端桌面。
 
-**当前 Android 版本为 2026.41.6**，可从 [keva.chat/download](https://keva.chat/download/) 下载。本版支持最多 20 个附件并可在发送前预览，新增硬件解码视频抽帧，文件页可直接播放音视频，换上全新的工作指示动画，并支持 Claude Haiku 5.5。历次版本见[更新日志](CHANGELOG.md)，关注本仓库可获取版本动态和公开文档。
+**当前 Android 版本为 2026.43.6**，可从 [keva.chat/download](https://keva.chat/download/) 下载。本版让可行手机助手在复杂页面上稳定运行、任务结束后自动回到可行，新增分步显示的悬浮胶囊和任务通知，出错时统一用一张卡片说明原因和可做的操作，并支持 Kimi K3.1 Pro 与 MiniMax M3.1-Flash。历次版本见[更新日志](CHANGELOG.md)，关注本仓库可获取版本动态和公开文档。
 
 ## Keva 有什么不同
 

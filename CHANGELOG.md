@@ -2,6 +2,16 @@
 
 This file records user-visible changes in public Keva releases.
 
+## 2026.43.6 — 2026-10-24
+
+- **Keva Phone Assistant holds up on heavy screens.** A slow screen read (for example inside a large mini-program page) no longer drops the session. When a read runs out of time, the assistant gets the part of the screen it has already read instead of nothing, and the error no longer claims the command was never sent. In our tests a two-hour task on such a page finished with no dropped session.
+- **Back to Keva when the task ends.** When a phone task finishes or you stop it, Keva comes back to the front with the same conversation, including on phones that block apps from bringing themselves forward.
+- **See what each step is doing.** The floating capsule shows a short description of the current step, and new notifications follow your tasks: progress while one runs, a heads-up when it needs you, and the result when it ends. You can stop a task from the notification.
+- **Errors you can act on.** Failures now show as one card that says whose problem it is (your account, your settings, the network, the model service or Keva itself) and offers the action that helps — switch model, sign in again, compact the conversation or retry. When a Codex usage limit is reached, the card shows when it resets, in your local time; raw error text stays folded under technical details.
+- **Stop means stop.** Stopping a task now also stops its checklist, which used to keep spinning.
+- **New models.** Kimi K3.1 Pro (1M context) is Kimi's strongest tier and Kimi K3 the balanced one; MiniMax's everyday tiers move to MiniMax M3.1-Flash (1M context).
+- **Runtime bumps.** Bundled Claude Code 2.1.308 and Codex 0.163.0. The first launch after updating unpacks the new engines once.
+
 ## 2026.41.6 — 2026-10-08
 
 - **20 attachments, and a preview before you send.** Photos and videos have separate pickers, and up to 20 attachments fit in one row of thumbnails. Before sending you can open a preview to play a video, see its resolution, or remove a single item. While the picker is still copying files, the tray shows an importing state and sending waits until it finishes.
