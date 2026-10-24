@@ -4,42 +4,51 @@
 
 [Website](https://keva.chat/) · [Download for Android](https://keva.chat/download/) · [中文说明](README.zh-CN.md) · [Why I built Keva](docs/why-i-built-keva.md) · [FAQ](docs/FAQ.md) · [Changelog](CHANGELOG.md) · [Paper](docs/paper/Keva_Paper_v1.1_EN.md)
 
-> **Run a real AI agent on your Android phone — no PC required.**
+> **Your Android phone, now the AI agent's computer.**
 
-Keva is a full computer for your AI agent — inside your Android phone. It brings complete **Claude Code** and **OpenAI Codex** runtimes to your phone, so you can work with files, run code and tools, search the web, and manage Git repositories without a PC or a cloud desktop.
+Keva puts the official **Claude Code** and **OpenAI Codex** CLIs on your phone, with the model you choose. The agent works with your files, the phone's GPS and video hardware, and — with your permission — your other apps. No PC, no root, no cloud desktop.
 
 **The current Android release is 2026.43.6** — download it at [keva.chat/download](https://keva.chat/download/). It makes Keva Phone Assistant hold up on heavy screens and return to Keva when a task ends, adds a step-by-step capsule and task notifications, shows errors as one clear card with the action that helps, and adds Kimi K3.1 Pro and MiniMax M3.1-Flash. See the [Changelog](CHANGELOG.md) for every release, and follow this repository for release notes and public documentation.
 
-## Why Keva
+## Why a phone can do this
 
 | | What it means |
 |---|---|
-| **A real agent, not just chat** | Keva can read and write files, run commands, write code, use tools, search the web, and carry work through to a result. |
-| **Two complete runtimes** | Choose Claude Code or OpenAI Codex. Codex supports a ChatGPT subscription or an OpenAI API key. |
-| **Built for the phone you already have** | Run on stock Android without root, a PC, or a cloud desktop. Your files, project data, and keys stay on your device. |
+| **The phone is the computer** | Keva puts a shell, files, Git, Python, Node and ffmpeg on your phone, so the agent has a real place to work. It doesn't run desktop apps; it gives the agent what it needs. |
+| **A full agent, with the model you pick** | The official Claude Code and Codex CLIs are built in. The agent runs on the phone; the model runs at your provider, and requests go straight there, never through Keva. |
+| **Your phone's GPS and video hardware** | With your permission, maps tasks can use where you are; coordinates are never logged. Video is decoded and encoded on the phone's own hardware, so a 1080p film is made right on the phone. |
+| **Your other apps, with you in control** | Pair Android's Wireless debugging with Keva once, on the same phone. Then it reads the screen and taps, swipes and types in your other apps. A floating capsule shows each step; take over or stop any time. |
 
-## Who it is for
+## What you can get done
 
-- **Developers** who want to code, inspect repositories, or work with files away from a computer.
-- **Researchers and operators** who want an agent to turn a request into a sourced report or a working deliverable.
-- **AI power users** who want to choose their own provider, API key, or subscription instead of being locked into one model.
+- **Documents** — reports, contracts, spreadsheets, written and polished, ready to send. *"Turn this week's notes into a three-paragraph report."*
+- **Code** — build a small tool, or fix one that won't run. *"Make me a small web page that tracks my spending by month."*
+- **Edit video** — turn your clips into a short, ready to post. *"Cut these clips into 30 seconds with gentle music."*
+- **Phone Use** — with your permission, it gets tasks done in your other apps. *"Find the cheapest flight from New York to Tokyo next Wednesday."*
 
-## Real work on a phone
+## See it work
 
-Keva is built for tasks with an outcome, not just a reply. Current public demos show it:
+1. **Build a Tetris game from one request** — it writes the code, reviews and fixes it, then you play it in the phone's browser.
+2. **Turn travel clips into a short film** — it looks through the footage, cuts to your pace, adds music and captions, and saves the film.
+3. **Check flight prices in Expedia** — say where and when; it opens the app, taps through to the flight list and shows you the prices. You can take over or stop it at any time.
 
-1. building a working Tetris game from scratch on stock Android;
-2. using Codex to research a week of AI developments and deliver an HTML industry report.
+Watch the films on the [Keva website](https://keva.chat/#watch).
 
-Watch the demos on the [Keva website](https://keva.chat/#cases).
+## Models and access
 
-## Runtimes and access
-
-- **Claude Code:** use your configured provider or Claude plan.
-- **OpenAI Codex:** sign in with a ChatGPT subscription or use an OpenAI API key.
-- **Additional providers:** DeepSeek, GLM, Kimi, LongCat, MiniMax, Qwen, and Xiaomi MiMo are supported through Keva's provider setup.
+- **Claude Code:** sign in with a Claude plan, or use an API key or provider.
+- **OpenAI Codex:** sign in with a ChatGPT subscription, or use an OpenAI API key.
+- **More providers:** DeepSeek, GLM, Kimi, LongCat, MiniMax, Qwen and Xiaomi MiMo, plus one slot for your own Anthropic-compatible endpoint.
 
 Switching between Claude and Codex keeps the current conversation context, so you do not need to start the work over.
+
+## Your files stay on your phone
+
+Files, chat history and model API keys stay on your device. What you send and the files a task uses go straight to the model provider you choose — never to Keva. While Phone Use is working, screen content goes to that provider too. Keva's own service sees only an anonymous version check and, when you sign in or buy, the account, license, payment and device data needed to activate; Paddle handles card data. No trackers, no analytics SDKs.
+
+## Pricing
+
+Every feature is unlocked for a 7-day trial. After that, a one-time license covers two devices: founder price US$19.90 (¥98) for the first 100 orders, then US$39.90 (¥198). Model usage is billed separately by your provider. See [keva.chat/pricing](https://keva.chat/pricing/).
 
 ## Public release
 
