@@ -8,7 +8,7 @@
 
 Keva puts the official **Claude Code** and **OpenAI Codex** CLIs on your phone, with the model you choose. The agent works with your files, the phone's GPS and video hardware, and — with your permission — your other apps. No PC, no root, no cloud desktop.
 
-**The current Android release is 2026.43.6** — download it at [keva.chat/download](https://keva.chat/download/). It makes Keva Phone Assistant hold up on heavy screens and return to Keva when a task ends, adds a step-by-step capsule and task notifications, shows errors as one clear card with the action that helps, and adds Kimi K3.1 Pro and MiniMax M3.1-Flash. See the [Changelog](CHANGELOG.md) for every release, and follow this repository for release notes and public documentation.
+**The current Android release is 2026.43.7** — download it at [keva.chat/download](https://keva.chat/download/). It fixes Phone Assistant setup getting stuck on step 6 when Android stops accepting Keva's saved pairing. The 2026.43.6 release before it made Keva Phone Assistant hold up on heavy screens and return to Keva when a task ends, added a step-by-step capsule and task notifications, showed errors as one clear card with the action that helps, and added Kimi K3.1 Pro and MiniMax M3.1-Flash. See the [Changelog](CHANGELOG.md) for every release, and follow this repository for release notes and public documentation.
 
 ## Why a phone can do this
 

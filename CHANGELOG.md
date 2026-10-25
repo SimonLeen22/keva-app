@@ -2,6 +2,10 @@
 
 This file records user-visible changes in public Keva releases.
 
+## 2026.43.7 — 2026-10-25
+
+- **Phone Assistant setup no longer gets stuck on step 6.** When Android stopped accepting Keva's saved pairing — for example after Keva was removed from Wireless debugging's paired devices — setup stayed on "Turn on Wireless debugging" with no way forward, even after restarting the app. Keva now takes you straight back to entering a new pairing code, and the code you are typing is not replaced by a second prompt.
+
 ## 2026.43.6 — 2026-10-24
 
 - **Keva Phone Assistant holds up on heavy screens.** A slow screen read (for example inside a large mini-program page) no longer drops the session. When a read runs out of time, the assistant gets the part of the screen it has already read instead of nothing, and the error no longer claims the command was never sent. In our tests a two-hour task on such a page finished with no dropped session.
