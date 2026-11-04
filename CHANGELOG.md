@@ -2,6 +2,15 @@
 
 This file records user-visible changes in public Keva releases.
 
+## 2026.45.2 — 2026-11-04
+
+- **The Phone Assistant capsule stays out of the way.** The floating capsule now sits above the app's own bottom navigation instead of covering its tabs, and it is semi-transparent with grey text so less of the screen is hidden.
+- **No more false "Keva quit unexpectedly" alerts.** When the phone's battery saver closed Keva in the background, the next launch showed an "ended abnormally" dialog, and on some phones that happened almost every time. The dialog now appears only for real crashes; background closes by the system are still listed under Run diagnostics.
+- **Location works on international phones in mainland China.** Pixel and other phones sold outside China could not get a location in the mainland, even with a VPN, so nearby search and routes had no starting point. Keva now tries several sources in turn: the phone's own location first; then, only when the phone's mobile network is in mainland China, the AMap location service; and finally pure GPS. Outside mainland China AMap is never used. Location is still taken only while Keva is open.
+- **New model.** OpenAI's Terra tier is now GPT-6.1 Terra. If you had picked Terra, Keva keeps that choice and moves it to the new model for you.
+- **Steadier engine updates.** If an update of the bundled Claude Code was interrupted, Keva could treat the half-installed engine as ready. It now checks that the install finished and unpacks it again when it did not.
+- **Runtime bumps.** Bundled Claude Code 2.1.317 and Codex 0.166.0. The first launch after updating unpacks the new engines once.
+
 ## 2026.43.7 — 2026-10-25
 
 - **Phone Assistant setup no longer gets stuck on step 6.** When Android stopped accepting Keva's saved pairing — for example after Keva was removed from Wireless debugging's paired devices — setup stayed on "Turn on Wireless debugging" with no way forward, even after restarting the app. Keva now takes you straight back to entering a new pairing code, and the code you are typing is not replaced by a second prompt.
