@@ -2,6 +2,12 @@
 
 This file records user-visible changes in public Keva releases.
 
+## 2026.46.1 — 2026-11-10
+
+- **New model: Fable 5.2.** Fable on the Claude plan and the Claude API is now Fable 5.2, replacing Fable 5.1, and picking Fable now starts a conversation normally. Before this release the Fable choice could be selected but failed to start with a "model setting is wrong" error.
+- **Runtime bump.** Bundled Claude Code 2.1.321. The first launch after updating unpacks the new engine once.
+- **Under the hood.** The chat and Phone Assistant code was reorganised into smaller parts with no intended change in behaviour.
+
 ## 2026.45.2 — 2026-11-04
 
 - **The Phone Assistant capsule stays out of the way.** The floating capsule now sits above the app's own bottom navigation instead of covering its tabs, and it is semi-transparent with grey text so less of the screen is hidden.

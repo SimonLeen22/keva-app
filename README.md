@@ -8,7 +8,7 @@
 
 Keva puts the official **Claude Code** and **OpenAI Codex** CLIs on your phone, with the model you choose. The agent works with your files, the phone's GPS and video hardware, and — with your permission — your other apps. No PC, no root, no cloud desktop.
 
-**The current Android release is 2026.45.2** — download it at [keva.chat/download](https://keva.chat/download/). It keeps the Phone Assistant capsule above apps' bottom navigation, stops false "ended abnormally" alerts after the system closes Keva in the background, makes location work on international phones in mainland China, and moves Terra to GPT-6.1 Terra with Claude Code 2.1.317 and Codex 0.166.0. See the [Changelog](CHANGELOG.md) for every release, and follow this repository for release notes and public documentation.
+**The current Android release is 2026.46.1** — download it at [keva.chat/download](https://keva.chat/download/). It moves Fable to Fable 5.2 (and fixes Fable failing to start when selected) with Claude Code 2.1.321. See the [Changelog](CHANGELOG.md) for every release, and follow this repository for release notes and public documentation.
 
 ## Why a phone can do this
 
