@@ -8,7 +8,7 @@
 
 Keva puts the official **Claude Code** and **OpenAI Codex** CLIs on your phone, with the model you choose. The agent works with your files, the phone's GPS and video hardware, and — with your permission — your other apps. No PC, no root, no cloud desktop.
 
-**The current Android release is 2026.47.3** — download it at [keva.chat/download](https://keva.chat/download/). Updates now download inside Keva and are checked before they are installed. See the [Changelog](CHANGELOG.md) for every release, and follow this repository for release notes and public documentation.
+**The current Android release is 2026.47.3** — download it at [keva.chat/download](https://keva.chat/download/). Updates now download inside Keva and are checked before they are installed. It also carries the 2026.47.1 changes: GPT-6.2 Astra and GPT-6.2 Sol for OpenAI's Astra and Sol tiers, LongCat-2.5, and Codex 0.170.0. See the [Changelog](CHANGELOG.md) for every release, and follow this repository for release notes and public documentation.
 
 ## Why a phone can do this
 

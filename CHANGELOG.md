@@ -7,6 +7,13 @@ This file records user-visible changes in public Keva releases.
 - **Updates download inside Keva.** The update page now downloads the new version inside Keva instead of opening the browser. The download can be paused and resumes where it stopped, even after Keva is closed. Keva checks the whole file before offering it, so a damaged download is never handed to the installer; this fixes the "There was a problem parsing the package" error some browsers caused. Android asks once for permission to install apps from Keva. "Download in browser" and "Copy download link" are still there as fallbacks. This applies to updates after this one: updating to this version still goes through the browser.
 - **Leftover files are removed.** After an update, Keva deletes the downloaded installer to free the space.
 
+Updating from a version before 2026.47.1? This release also includes everything in 47.1:
+
+- **New models: GPT-6.2 Astra and GPT-6.2 Sol.** OpenAI's Astra and Sol tiers now use GPT-6.2 Astra and GPT-6.2 Sol, on both the ChatGPT plan and the OpenAI API. If you had picked Astra or Sol, Keva keeps that choice and moves it to the new model for you. Older conversations still show which model they used.
+- **LongCat 2.5.** The LongCat provider now uses LongCat-2.5 instead of LongCat-2.0.
+- **Clearer error when a workspace blocks a request.** When your ChatGPT workspace's policy refuses a request, Keva now shows it as a settings problem instead of an unknown error.
+- **Runtime bump.** Bundled Codex 0.170.0, needed for the new GPT-6.2 models. The first launch after updating unpacks the new engine once.
+
 ## 2026.47.1 — 2026-11-19
 
 - **New models: GPT-6.2 Astra and GPT-6.2 Sol.** OpenAI's Astra and Sol tiers now use GPT-6.2 Astra and GPT-6.2 Sol, on both the ChatGPT plan and the OpenAI API. If you had picked Astra or Sol, Keva keeps that choice and moves it to the new model for you. Older conversations still show which model they used.
