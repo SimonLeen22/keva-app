@@ -2,6 +2,13 @@
 
 This file records user-visible changes in public Keva releases.
 
+## 2026.47.1 — 2026-11-19
+
+- **New models: GPT-6.2 Astra and GPT-6.2 Sol.** OpenAI's Astra and Sol tiers now use GPT-6.2 Astra and GPT-6.2 Sol, on both the ChatGPT plan and the OpenAI API. If you had picked Astra or Sol, Keva keeps that choice and moves it to the new model for you. Older conversations still show which model they used.
+- **LongCat 2.5.** The LongCat provider now uses LongCat-2.5 instead of LongCat-2.0.
+- **Clearer error when a workspace blocks a request.** When your ChatGPT workspace's policy refuses a request, Keva now shows it as a settings problem instead of an unknown error.
+- **Runtime bump.** Bundled Codex 0.170.0, needed for the new GPT-6.2 models. The first launch after updating unpacks the new engine once.
+
 ## 2026.46.1 — 2026-11-10
 
 - **New model: Fable 5.2.** Fable on the Claude plan and the Claude API is now Fable 5.2, replacing Fable 5.1, and picking Fable now starts a conversation normally. Before this release the Fable choice could be selected but failed to start with a "model setting is wrong" error.

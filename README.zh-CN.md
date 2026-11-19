@@ -8,7 +8,7 @@
 
 **Claude Code** 和 **Codex** 在手机上跑，模型由你选。它能处理文件，用上手机的定位和视频硬件，经你授权还能操作别的 App。不用电脑，不用 root，也不用云桌面。
 
-**当前 Android 版本为 2026.46.1**，可从 [keva.chat/download](https://keva.chat/download/) 下载。本版将 Fable 升级为 Fable 5.2（并修复了选择 Fable 后无法启动的问题），内置 Claude Code 2.1.321。历次版本见[更新日志](CHANGELOG.md)，关注本仓库可获取版本动态和公开文档。
+**当前 Android 版本为 2026.47.1**，可从 [keva.chat/download](https://keva.chat/download/) 下载。本版将 OpenAI 的 Astra、Sol 档升级为 GPT-6.2 Astra 与 GPT-6.2 Sol，LongCat 升级为 LongCat-2.5，内置 Codex 0.170.0。历次版本见[更新日志](CHANGELOG.md)，关注本仓库可获取版本动态和公开文档。
 
 ## 手机凭什么能干这些
 
