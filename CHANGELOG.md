@@ -2,6 +2,11 @@
 
 This file records user-visible changes in public Keva releases.
 
+## 2026.47.3 — 2026-11-19
+
+- **Updates download inside Keva.** The update page now downloads the new version inside Keva instead of opening the browser. The download can be paused and resumes where it stopped, even after Keva is closed. Keva checks the whole file before offering it, so a damaged download is never handed to the installer; this fixes the "There was a problem parsing the package" error some browsers caused. Android asks once for permission to install apps from Keva. "Download in browser" and "Copy download link" are still there as fallbacks. This applies to updates after this one: updating to this version still goes through the browser.
+- **Leftover files are removed.** After an update, Keva deletes the downloaded installer to free the space.
+
 ## 2026.47.1 — 2026-11-19
 
 - **New models: GPT-6.2 Astra and GPT-6.2 Sol.** OpenAI's Astra and Sol tiers now use GPT-6.2 Astra and GPT-6.2 Sol, on both the ChatGPT plan and the OpenAI API. If you had picked Astra or Sol, Keva keeps that choice and moves it to the new model for you. Older conversations still show which model they used.
